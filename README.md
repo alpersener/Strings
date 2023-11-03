@@ -187,21 +187,6 @@ Kaç Tane obje oluşur?
 
     String s1 = new String("javaguides");
      
-    String s2 = new String("javaguides");
-```
-
-*   3 tane obje oluşacaktır.
-
-*   1 Tanesi String pool’da yok ise “javaguides” adında bir tane nesne oluşturur
-
-*   1 Tanesi Heap’de s1 referansı olan “javaguides”
-
-*   1 Tanesi Heap’de s2 referansı olan “javaguides”
-
-```
-
-    String s1 = new String("javaguides");
-     
     String s2 = "javaguides";
 ```
 
